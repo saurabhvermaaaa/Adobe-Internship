@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Report.aux
+The style file: ieeetr.bst
+Database file #1: ref.bib
+Warning--empty journal in chowdhuryknow2look
+Warning--empty year in chowdhuryknow2look
+Warning--can't use both author and editor fields in Sarkar2011
+Warning--empty booktitle in manning2014stanford
+You've used 21 entries,
+            1876 wiz_defined-function locations,
+            608 strings with 7483 characters,
+and the built_in function-call counts, 6619 in all, are:
+= -- 642
+> -- 260
+< -- 0
++ -- 94
+- -- 73
+* -- 472
+:= -- 898
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 355
+empty$ -- 640
+format.name$ -- 73
+if$ -- 1617
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 22
+newline$ -- 67
+num.names$ -- 21
+pop$ -- 97
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 244
+stack$ -- 0
+substring$ -- 489
+swap$ -- 146
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 68
+width$ -- 23
+write$ -- 205
+(There were 4 warnings)

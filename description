@@ -1,0 +1,14 @@
+\section{\Large Description}
+\textbf{I would like to reemphasise the fact that most of the details have been intentionally hidden pertaining to Intellectual Property guidelines and Non-Disclosure Agreement.}
+\subsection{\large Modules}
+The input to the system is an image with a set of associated content. First, that goes into text parser which outputs entities to Dependency Parser. After representing textual features, a set of author tags or image tags automatically extracted from visual tagging engines are unified in the unifier module. After that, we use knowledge base to expand the set of entities in enhancement module. Finally, we extract most significant set of entities from the representation in Extraction Module.
+\subsection{\large Parsing}
+The input to the pipeline is an image and set of associated textual content. This module parses the text into entities, extracts out POS tags, named entity recognition, coreference resolution and all the other natural language processing tasks needed. Our system takes care of N-grams and different forms of entities in the text.
+\subsection{\large Representation}
+We needed a suitable representation to represent most of the information extracted from the text. There were different possibilities including first order logic, graphical representation, vector space representation and so on. All of them had their own pros and cons. We chose a particular representation to continue with all over our pipeline. This representation incorporated entities and their relationships.
+\subsection{\large Unifier}
+We also obtained a set of image tags or author tags from an external source for given image. Now we had to merge the same into the previous representation for entities extracted from text. This challenge was solved with proprietary algorithm which was our own novel work.
+\subsection{\large Enhancement}
+This module uses background knowledge base, concept networks and commonsense knowledge to enhance the set of entities with a richer set of entities and crafts the representation for final use. We iteratively expand the set of tags to a richer, diverse and relevant set. This is one of the unfamiliar and recent directions of popular works.
+\subsection{\large Extraction}
+Given a graphical representation of tags, we needed to convert them back to conventional form of key-value pair for use in end-use cases of recommendation and retrieval. We do the same by extracting top nodes from the graph using random walk based methods. Some of the readings included were \cite{Sarkar2011} \cite{chitrapura2004node} \cite{bhagat2011node}. We moved on with a very specific work from a tier-1 conference in the same domain and extended the same for our use.

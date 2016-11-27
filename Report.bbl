@@ -1,0 +1,108 @@
+\begin{thebibliography}{10}
+
+\bibitem{liu2007survey}
+Y.~Liu, D.~Zhang, G.~Lu, and W.-Y. Ma, ``A survey of content-based image
+  retrieval with high-level semantics,'' {\em Pattern recognition}, vol.~40,
+  no.~1, pp.~262--282, 2007.
+
+\bibitem{datta2008image}
+R.~Datta, D.~Joshi, J.~Li, and J.~Z. Wang, ``Image retrieval: Ideas,
+  influences, and trends of the new age,'' {\em ACM Computing Surveys (CSUR)},
+  vol.~40, no.~2, p.~5, 2008.
+
+\bibitem{simonyan2014very}
+K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for
+  large-scale image recognition,'' {\em arXiv preprint arXiv:1409.1556}, 2014.
+
+\bibitem{lecun2015deep}
+Y.~LeCun, Y.~Bengio, and G.~Hinton, ``Deep learning,'' {\em Nature}, vol.~521,
+  no.~7553, pp.~436--444, 2015.
+
+\bibitem{hoffman2014lsda}
+J.~Hoffman, S.~Guadarrama, E.~S. Tzeng, R.~Hu, J.~Donahue, R.~Girshick,
+  T.~Darrell, and K.~Saenko, ``Lsda: Large scale detection through
+  adaptation,'' in {\em Advances in Neural Information Processing Systems},
+  pp.~3536--3544, 2014.
+
+\bibitem{deng2009imagenet}
+J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``Imagenet: A
+  large-scale hierarchical image database,'' in {\em Computer Vision and
+  Pattern Recognition, 2009. CVPR 2009. IEEE Conference on}, pp.~248--255,
+  IEEE, 2009.
+
+\bibitem{miller1995wordnet}
+G.~A. Miller, ``Wordnet: a lexical database for english,'' {\em Communications
+  of the ACM}, vol.~38, no.~11, pp.~39--41, 1995.
+
+\bibitem{suchanek2007yago}
+F.~M. Suchanek, G.~Kasneci, and G.~Weikum, ``Yago: a core of semantic
+  knowledge,'' in {\em Proceedings of the 16th international conference on
+  World Wide Web}, pp.~697--706, ACM, 2007.
+
+\bibitem{tandon2015knowlywood}
+N.~Tandon, G.~de~Melo, A.~De, and G.~Weikum, ``Knowlywood: Mining activity
+  knowledge from hollywood narratives,'' in {\em Proceedings of the 24th ACM
+  International on Conference on Information and Knowledge Management},
+  pp.~223--232, ACM, 2015.
+
+\bibitem{Liu:2004:CMP:1031314.1031373}
+H.~Liu and P.~Singh, ``Conceptnet \&mdash; a practical commonsense reasoning
+  tool-kit,'' {\em BT Technology Journal}, vol.~22, pp.~211--226, Oct. 2004.
+
+\bibitem{chowdhuryknow2look}
+S.~N. Chowdhury, N.~Tandon, and G.~Weikum, ``Know2look: Commonsense knowledge
+  for visual search,''
+
+\bibitem{Sarkar2011}
+P.~Sarkar and A.~W. Moore, {\em Random Walks in Social Networks and their
+  Applications: A Survey}, pp.~43--77.
+\newblock Boston, MA: Springer US, 2011.
+
+\bibitem{chitrapura2004node}
+K.~P. Chitrapura and S.~R. Kashyap, ``Node ranking in labeled directed
+  graphs,'' in {\em Proceedings of the thirteenth ACM international conference
+  on Information and knowledge management}, pp.~597--606, ACM, 2004.
+
+\bibitem{bhagat2011node}
+S.~Bhagat, G.~Cormode, and S.~Muthukrishnan, ``Node classification in social
+  networks,'' in {\em Social network data analytics}, pp.~115--148, Springer,
+  2011.
+
+\bibitem{leong2010text}
+C.~W. Leong, R.~Mihalcea, and S.~Hassan, ``Text mining for automatic image
+  tagging,'' in {\em Proceedings of the 23rd International Conference on
+  Computational Linguistics: Posters}, pp.~647--655, Association for
+  Computational Linguistics, 2010.
+
+\bibitem{duygulu2002object}
+P.~Duygulu, K.~Barnard, J.~F. de~Freitas, and D.~A. Forsyth, ``Object
+  recognition as machine translation: Learning a lexicon for a fixed image
+  vocabulary,'' in {\em European conference on computer vision}, pp.~97--112,
+  Springer, 2002.
+
+\bibitem{grubinger2006iapr}
+M.~Grubinger, P.~Clough, H.~M{\"u}ller, and T.~Deselaers, ``The iapr tc-12
+  benchmark: A new evaluation resource for visual information systems,'' in
+  {\em International Workshop OntoImage}, vol.~5, p.~10, 2006.
+
+\bibitem{manning2014stanford}
+C.~D. Manning, M.~Surdeanu, J.~Bauer, J.~R. Finkel, S.~Bethard, and
+  D.~McClosky, ``The stanford corenlp natural language processing toolkit.,''
+  2014.
+
+\bibitem{yosef2011aida}
+M.~A. Yosef, J.~Hoffart, I.~Bordino, M.~Spaniol, and G.~Weikum, ``Aida: An
+  online tool for accurate disambiguation of named entities in text and
+  tables,'' {\em Proceedings of the VLDB Endowment}, vol.~4, no.~12,
+  pp.~1450--1453, 2011.
+
+\bibitem{mikolov2013distributed}
+T.~Mikolov and J.~Dean, ``Distributed representations of words and phrases and
+  their compositionality,'' {\em Advances in neural information processing
+  systems}, 2013.
+
+\bibitem{le2014distributed}
+Q.~V. Le and T.~Mikolov, ``Distributed representations of sentences and
+  documents.,'' in {\em ICML}, vol.~14, pp.~1188--1196, 2014.
+
+\end{thebibliography}

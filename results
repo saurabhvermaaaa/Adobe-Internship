@@ -1,0 +1,2 @@
+\section{\Large Results}
+We have achieved significant improvement in utility of tags with around 45\% increase. Our tags are more relevant to the image in hand compared to baselines with an increase of 10\%. Not to forget, we have great diversity in our set of tags. Measuring by one of the most standard measures, which has been popular since the 1960s, there is nearly an improvement of 25\%. The improvements are measured over a dataset of 300 images and results are compared by using median of the achieved scores.

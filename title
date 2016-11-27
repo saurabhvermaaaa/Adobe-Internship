@@ -1,0 +1,32 @@
+\newcommand*{\titleinclude}{\begingroup % 
+\centering 
+
+\Large{\textbf{A Seminar report\\on}\\[0.5\baselineskip]\par}
+{\Huge USAGE BASED TAG ENHANCEMENT\\[0.5\baselineskip] OF IMAGES}\\[0.2\baselineskip]
+\vfill
+
+{\itshape\normalsize Submitted in requirement for the course\par}
+\Large{TRAINING AND SEMINAR (CSN-499)} \\
+of Bachelor in Computer Science and Engineering\par % Location and year
+
+\vfill
+
+by \\[0.5\baselineskip]
+{\LARGE SAURABH VERMA\\(Enrollment No. 13114057)\par}
+\vfill
+\par{\itshape\normalsize Project undertaken at}\\
+[0.3\baselineskip]
+\large{BIG DATA EXPERIENCE LAB}\\
+Adobe Systems\\
+Bangalore
+\vfill
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.05]{Logo}
+\end{figure}
+{\Large DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING\\
+INDIAN INSTITUTE OF TECHNOLOGY ROORKEE\\
+ROORKEE - 247667 (INDIA)}\par
+\vfill
+{\large SUMMER, 2016}\par
+\endgroup}

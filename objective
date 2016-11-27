@@ -1,0 +1,11 @@
+\section{\Large Objectives}
+The project was required to fulfill the below objectives.
+\begin{enumerate}
+\item Combine the use of visual and textual features for tagging of images
+\item Enhance the given set of tags using background knowledge from large knowledge bases
+\item Convert the entities into most useful conventional form
+\item Guide the system to give out a most useful set of tags
+\item Use the final tags to improve retrieval and recommendation engines
+\item Develop a cross-platform and re-entrant pipeline
+\end{enumerate}
+

@@ -1,0 +1,37 @@
+Hello, I spent my summer at Adobe Systems Research Labs, Bangalore where I worked on the project titled "Usage based Tag enhancement of images". I will first motivate the problem statement and then continue with my journey to the completion of the project and then, I will present to you a glimpse of results achieved.
+
+These people have been an indispensable part of my internship. My team members, Lab colleagues, friends, professor Niloy and internship coordinators.
+
+So the most obvious question is what is tagging? Why do we need it? The first figure shows the explosion of data over the years. As we can see, there is an enormous growth in unstructured data. To effectively manage this unstructured data, we need to tag the content. The graph on the right shows a survey by Parsely which establishes the fact that even in organizations, the state of tagging is not very good.
+
+I will ask you two questions, What if there was a system that could bridge the gep between what images contain and how they are perceived? What if there was a system that can give a set of tags that are important for retrieval?
+
+Then we established a strong problem statement which says that given an image and a set of associated content, we want to enhance the tags based on their usage. This essentially breaks down into the following sub-problems. Develop a semantic understanding of the image content. Enhance a given set of tags using background knowledge. And, finally, improve retrieval and recommendation using the given tags.
+
+Now, I will walk you through a live example taken from National Public Radio's live report on terrorist attacks in Paris in 2015. These are the tags which we obtain from Clarifai. bridge, people, travel, city, outdoors, building. A very generic set of classes which is not very useful as we will see in the results. These are the tags from Microsoft Vision API. It does a lot of things, including giving very few and unimportant tags. Sky, Outdoor, Building, arch, person, bridge. Again, not very specific and uninteresting.
+
+Now, these are the tags we derived. terrorism, army, France, Paris, Eiffel Tower, attack, security, terrorist attacks. You can see they contain a lot of information pertaining to the image. They can handle multiple-word entities, multiple synonyms and short forms. 
+
+Some of the most related works are by Leong et al. in ACL 2010 titled Text mining for automatic image tagging. Zhang et. al. provide a review on automatic image annotation techniques in 2012 journal Pattern Recognition. The first paper uses text around image, processes it in multiple ways and gives out a set of most important tags. The other wor shows how to derive features in detail and gives an overview of different classes of tagging engines.
+
+Now, moving on to the industrial state-of-the-art. The tech giants, Microsoft, Google and IBM are working in this space. There are also new emerging visual tagging engines, Imagga and Clarifai. There are even more organizations than just these.
+
+This is the workplan spanning across 12 weeks for the completion of the project. For, the first two weeks, we had to brainstorm for different problem ideas in a very specific area. After that, we established multiple problem alternatives after proving their business and research value. Next few week, we designed a solution framework for the problem, implemented it, tested it and iterated over the cycle to end up with a working pipeline. After that, we went on to finding ways to evaluate the system and generate results.
+
+Some of the underlying objectives were, combining the visual and textual features of an image, use background knowledge, develop a cross-platform and re-entrant pipeline which could finally improve the retrieval and recommendation results.
+
+I will now walk you through a high-level overview of how we achieved the above. We start with the text around the content. We parse it using standard NLP techniques and convert into a representation which can store all the information we need and still be viable for large-scale use. After that, we unify multiple tags into the current representation, which may include author tags, visual tags, automatic tags etc. These tags are not enough, for example, when searching for domestic animals, a photo of dog is relevant. So we enhance the tags using background knowledge bases and concept networks. At the end, we convert tags from our internal representation to a conventional representation for end-use cases. This is a very high-level overview of the system.
+
+I would now like to walk you over the results we have achieved in our experiment. Our dataset was obtained from an initial work by Leong et al. in COLING 2010. The dataset can be downloaded from the link beside. We used Standford CoreNLP as NLP pipeline, YAGO-NAGA project for concept network and word2vec and doc2vec for vector representation. These are a very powerful set of tools from eminent research groups at Stanford, Max Planck Institute and Google. 
+
+We had to define our own metrics for evaluations since there are no standard metrics available and there is no accurate set of tags. Significance measures how significant a given set of tags is for information retrieval. It was measured by a metric inspired from work by Lu et al. on tag recommendation in IJCAI 2009. Relevance is metric which measures how coherent our tags are with the image in hand. It is measured by taking a weighted average of imformation content based similarity between given tags and a gold-standard human annotations. Last, we have incorporated a recent trend in scientific work, diversity. It measures how diverse tags are and whether they capture multiple senses of the content? We measured the same using Cophenet Correlation Coefficient given by Sokal et al in 1962.
+
+We have compared our performance against multiple baselines which include Imagga, Microsoft Vision, Paper by Leong et al in ACL 2010 and a set of gold-standard human annotations and other visual autotaggers. 
+
+Moving on to the actual results. As we can see, there is nearly 30% improvement in significance. We perform better here because we . After that, we have about 10% increase in relevance of tags to the content. There is an improvement here because we find a sweet spot between visual and textual features which is most relevant to the image in hand. After that, we have a more diverse set of tags than other baselines. The improvement is nearly 20%. 
+
+There is more to the project than we could initially see. The scope for improvement and expansion includes the following. We can work with multimedia content instead of only image, make the pipeline more efficient, evaluate particular component and tune it, offer solutions for rarely used images and multiple word senses of a document. 
+
+I would like to conclude with takeaways from the internship. There was fun and publications. We are pushing for both a publication and invention diclosure.
+
+With that, I ended a successful internship experience. Thank You.

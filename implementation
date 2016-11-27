@@ -1,0 +1,21 @@
+\section{\Large Implementation}
+
+\subsection{\large Experimental Setup}
+We obtained gold standard human annotations for a dataset of 300 images. We also had access to multiple visual tagging engine APIs namely Clarifai, Imagga, Microsoft Vision API. We also implemented a text-based baseline\cite{leong2010text} for comparison with extractive systems. For comparison, we developed multiple metrics which measured utility, relevance and diversity of tags. After comparing them all, we established the fact that our tags are more relevant, diverse and significant than state-of-the-art systems.
+
+\subsection{\large Datasets}
+Conventional Datasets with no surrounding textual content like Corel\cite{duygulu2002object}, ESP-Game, IAPRTC-12 \cite{grubinger2006iapr} cannot be used since our method extracts textual features as well. The dataset for the same was obtained from previous work by \cite{leong2010text} which can be downloaded from \url{http://lit.csci.unt.edu/index.php/Downloads}.
+
+\subsection{\large Parameters}
+We needed multiple parameters for thresholds and importance ratios. Some of the significant parameters were as follows. 
+
+\begin{itemize}
+\item[$\bullet$] A threhold to determine if two entities match.
+\item[$\bullet$] A threshold to create an edge in the graph while unifying visual cues.
+\item[$\bullet$] The ratio of probabilities with which we should move to the adjacent node in random walk.
+\item[$\bullet$] A threshold confidence in tags to include them in final output.
+\item[$\bullet$] A weighting scheme for normalization of tag weights from multiple sources.
+\end{itemize}
+
+\subsection{\large Tools}
+There were multiple tools used at different stages to quickly develop a robust end-to-end pipeline. We used Stanford CoreNLP Natural Language Processing toolkit for the parsing and tagging functions\cite{manning2014stanford}. We used entity disambiguation tool AIDA\cite{yosef2011aida} to map entities in text. We used YAGO\cite{suchanek2007yago} as our knowledge base. Word2Vec\cite{mikolov2013distributed} was used to represent words into vector space and work with them. We also used doc2vec\cite{le2014distributed} to convert document into vector-based representation. These are a very powerful set of tools provided by eminent research groups from Stanford University, Google and Max Planck Institute.

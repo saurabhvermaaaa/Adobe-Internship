@@ -1,0 +1,11 @@
+\section{\Large Work Plan}
+The project spanned for 12 weeks. The outline of the schedule is as follows.
+\begin{enumerate}
+\item Week 1 - 2 : This phase required us to brainstorm for a large number of ideas in a given space to completely explore the space. The ideas spanned from existing works to novel creations.
+\item Week 3 : After having lots of ideas, we were required to finalise and present a problem alternative. We needed to establish it's business value and innovation value for the community.
+\item Week 4 : Given a problem statement, this week needed us to design an appropriate solution framework which would not only solve the problem but also check for feasibility of the problem.
+\item Week 5 - 8 : Having the design ready, we proceeded towards next steps in Software development Life cycle, namely, Coding and Testing. We quickly prototyped the high level ideas in solution framework, checked them and put them in place.
+\item Week 9 - 10 : After building an end-to-end pipeline, we moved on the tricky part in our system, Evaluation, Tuning and Measurements. We had the responsibility to prove the utility of our tags with some concrete results. We tuned our pipeline and achieved outstanding results.
+\item Week 11 : After finalizing on the pipeline and the results, this week required us to present our work to global research community of the organization in a very short span of time. We iterated over different presentations to give out the best we could and raised the bar for the coming presentations as we were first in.
+\item Week 12 : Final week and my internship ended with Documentation and Code Transfer. I made everything run on their internal systems and improved the readability of my code, made improvements and signed off with a nice work experience.
+\end{enumerate}
